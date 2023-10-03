@@ -1,0 +1,438 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 10;
+}
+
+/* Define basic styles for header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #624b4b;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 80px; /* Adjust the size as needed */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the welcome section */
+/* Center content vertically in the "home" section */
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Make the container take up the full viewport height */
+}
+
+/* Style the "Welcome to my Portfolio" text and link as needed */
+.welcome {
+    text-align: center;
+    max-width: 700px; /* Adjust the max-width as needed */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.welcome h1 {
+    font-size: 45px;
+    color: #333; /* Change this color as per your choice */
+}
+
+/* Style the "Get Started" link */
+.welcome a {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* Add styles for other sections as needed */
+/* Style section headers */
+.section-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style section content */
+.section-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Add more CSS styles as needed */
+
+/* Style the box container */
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+/* Style individual boxes */
+.box {
+    flex: 1;
+    max-width: calc(30% - 30px); /* Adjust the width as needed */
+    padding: 90px;
+    border: 1px solid grey;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Add hover effect */
+.box:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    color: black;
+}
+
+/* Style box images */
+.box img {
+    width: 100%;
+    max-height: 100px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+
+/* Style box headings */
+.box h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Style the about me section */
+.aboutme-section {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+/* Style the about me content */
+.aboutme-content {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.aboutme-content h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.small-text {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+.aboutme-content:hover {
+    background-color: #e9ecef; /* Change background color on hover */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Add a slight box-shadow on hover */
+}
+/* Style the education section */
+.education-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+/* Style the education container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Style the education container */
+.education-container {
+    flex: 1;
+    max-width: calc(33.33% - 20px); /* Adjust the width as needed */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out; /* Add transition for smooth hover effect */
+}
+
+/* Add hover effect */
+.education-container:hover {
+    transform: scale(1.05); /* Scale up the container on hover */
+    cursor: pointer;
+}
+
+.education-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.education-container p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* Style the certificates section */
+.certificates-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+/* Style the certificates container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Style the certificates section */
+.certificates-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+/* Style the description section */
+.description-section {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+/* Style the containers */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Style the certificate container */
+.certificate-container {
+    flex: 1;
+    max-width: calc(20% - 20px); /* Adjust the width as needed */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out; /* Add transition for hover effect */
+}
+
+/* Add hover effect */
+.certificate-container:hover {
+    transform: scale(1.05); /* Scale up the container on hover */
+    cursor: pointer;
+}
+
+.certificate-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Style the description */
+.description {
+    flex: 1;
+    max-width: calc(20% - 20px); /* Adjust the width as needed */
+    padding: 20px;
+    text-align: center;
+}
+
+.description h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: Georgia, serif;
+}
+
+.description p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Style the contact section */
+.contact-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Style the contact section */
+.contact-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Adjust alignment as needed */
+}
+
+/* Style the container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Style the contact form container */
+.contact-form-container {
+    flex: 1;
+    max-width: calc(50% - 20px); /* Adjust the width as needed */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-container h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+/* Style the contact info container */
+.contact-info-container {
+    flex: 1;
+    max-width: calc(50% - 20px); /* Adjust the width as needed */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info-container h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+/* Style the contact info list */
+.contact-info-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info-list li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info-list img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+/* Style the hover effect for the submit button */
+.hover-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.hover-button:hover {
+    background-color: #0056b3;
+}
+/* Style the contact links */
+.contact-link {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact-link:hover {
+    color: #007bff; /* Change the link color on hover */
+}
+
+/* Style the projects section */
+.projects-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+/* Style the project rows */
+.project-row {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project-row h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-row p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* ... (previous CSS code) ... */
+
+/* Style the project rows */
+.project-row {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 100px; /* Set a fixed height for all project rows */
+    width: 90%;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project-row:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Add a slight box-shadow on hover */
+}
+
+.project-row h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-row p {
+    font-size: 16px;
+    line-height: 1.6;
+}
